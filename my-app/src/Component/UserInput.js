@@ -1,10 +1,10 @@
 import React from 'react';
 
-class userInput = (props) => {
+class UserInput = (props) => {
 
-    const inputStyle {
+    const inputStyle 
         border:'2ps solid red'
-    };
+    }
 
 
 
@@ -14,6 +14,6 @@ class userInput = (props) => {
 };
 
 
-export default userInput;
+export default UserInput;
 
 

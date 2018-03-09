@@ -12,7 +12,8 @@ class App extends Component {
       {name:"steve", age:25},
       {name:"manu", age:23},
       {name:"Stephane",age:26}
-    ]
+    ],
+    otherState: 'some other value'
   }
 
 
@@ -39,12 +40,11 @@ nameChangeHAndler = (event)=> {
 }
 
 
-state = {
-  userName:"supermax"
+// state = {
+//   userName:"supermax"
 
-
-usernameChangeHandler = (event)=> {this.setState({username:event.target.value});}
-}
+// usernameChangeHandler = (event)=> {this.setState({username:event.target.value})}
+// }
 
 
   render() {
